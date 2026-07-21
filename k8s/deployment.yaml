@@ -9,7 +9,7 @@ metadata:
     app: trustbank-fraud
     course: data789
     assignment: hw4
-    owner: jorbai@unc.edu
+    owner: jorbai
 spec:
   replicas: 3                         # graded: exactly 3 replicas
   revisionHistoryLimit: 5
@@ -26,7 +26,7 @@ spec:
       labels:
         app: trustbank-fraud
         color: blue                    # only used by the blue-green variant (k8s/blue-green/)
-        owner: jorbai@unc.edu
+        owner: jorbai
     spec:
       containers:
         - name: fraud
